@@ -9,11 +9,11 @@ a. uv run adk web . --port 8501 --reload_agents
 <!-- agent-server -->
 b. uv run uvicorn app.server:app --host localhost --port 8000 --reload
 
-2. mail-agent
+2. user-agent
 <!-- agent-server -->
 uv run uvicorn app.fast_api_app:app --host localhost --port 8001 --reload
 
-3. user-agent
+3. mail-agent
 <!-- agent-server -->
 uv run uvicorn app.fast_api_app:app --host localhost --port 8002 --reload
 
